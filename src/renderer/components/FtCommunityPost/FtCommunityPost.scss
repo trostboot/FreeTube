@@ -12,6 +12,10 @@
 
 .ft-list-post {
   box-sizing: border-box;
+
+  :deep(.videoThumbnail) {
+    max-inline-size: 640px;
+  }
 }
 
 .hiddenVideo {
@@ -23,6 +27,7 @@
 .communityImage {
   block-size: 100%;
   inline-size: 100%;
+  max-inline-size: 640px;
 }
 
 .communityThumbnail {
@@ -154,4 +159,5 @@
 
 .sliderContainer {
   display: grid;
+  max-inline-size: 640px;
 }
